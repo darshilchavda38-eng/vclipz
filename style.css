@@ -1,0 +1,14 @@
+
+:root{--bg:#090b14;--panel:#121629;--text:#eef1ff;--muted:#aab1cc;--accent:#8b5cf6;--accent2:#22d3ee;--line:#29304b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0%,#1b1740 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:#9eeaff;text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,92%);margin:auto}
+header{border-bottom:1px solid var(--line);background:#090b14dd;backdrop-filter:blur(12px);position:sticky;top:0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0}.brand{font-weight:900;font-size:1.35rem;letter-spacing:.04em;color:white}.brand span{color:var(--accent2)}nav{display:flex;gap:20px;flex-wrap:wrap;font-size:.93rem}
+.hero{padding:88px 0 70px}.eyebrow{color:var(--accent2);font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem}
+h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.04;margin:14px 0 20px;letter-spacing:-.045em}h1 .glow{background:linear-gradient(90deg,#a78bfa,#67e8f9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:1.2rem;color:var(--muted);max-width:700px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:12px 19px;border-radius:12px;background:linear-gradient(100deg,var(--accent),#4f46e5);color:white;font-weight:700}.btn.secondary{background:var(--panel);border:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:35px 0 70px}.card{background:linear-gradient(145deg,#171c34,#101426);border:1px solid var(--line);border-radius:18px;padding:22px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}
+section.content{padding:46px 0 72px;max-width:850px}section.content h1{font-size:clamp(2.3rem,5vw,3.6rem)}section.content h2{margin-top:34px;font-size:1.35rem}section.content p,section.content li{color:#c5cbe0}section.content ul{padding-left:22px}
+.notice{border:1px solid #51418a;background:#17152b;padding:16px 18px;border-radius:12px;color:#dcd6ff;margin:24px 0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:62px 0 45px}}
